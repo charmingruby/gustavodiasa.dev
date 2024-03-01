@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
+import { JetBrains_Mono as JetBrainsMono } from 'next/font/google'
 import '@/styles/globals.css'
+
+export const fontSans = JetBrainsMono({
+  subsets: ['latin'],
+  variable: '--font-sans',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${GeistSans.className} min-h-screen dark bg-background font-sans antialiased`}
+        className={`${fontSans.variable} min-h-screen dark bg-gradient-to-br from-zinc-950 via-zinc-950/70 to-zinc-950/80 font-sans antialiased`}
       >
         {children}
       </body>
