@@ -1,12 +1,12 @@
 import Image, { StaticImageData } from 'next/image'
 
+import elixirIcon from '@/assets/technologies/elixir.svg'
+import goIcon from '@/assets/technologies/go.svg'
 // dev stack
 import nestIcon from '@/assets/technologies/nest.svg'
-import goIcon from '@/assets/technologies/go.svg'
+import nextIcon from '@/assets/technologies/next.svg'
 import nodeIcon from '@/assets/technologies/node.svg'
 import reactIcon from '@/assets/technologies/react.svg'
-import nextIcon from '@/assets/technologies/next.svg'
-import elixirIcon from '@/assets/technologies/elixir.svg'
 
 interface Technology {
   alt: string
@@ -44,7 +44,13 @@ export function DeveloperStack() {
   return (
     <div className="flex items-center gap-4">
       {stack.map(({ alt, url }) => (
-        <Image src={url} alt={alt} key={alt} className="w-8 h-8" />
+        <Image
+          src={url}
+          alt={alt}
+          key={alt}
+          className="h-8 w-8"
+          draggable="false"
+        />
       ))}
     </div>
   )
