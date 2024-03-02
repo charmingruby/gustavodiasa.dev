@@ -13,15 +13,12 @@ import { CareerPath } from './_components/career-path'
 import { ContactForm } from './_components/contact-form/form'
 import { DeveloperStack } from './_components/developer-stack'
 import { DownloadCVButton } from './_components/download-cv-button'
+import { Skills } from './_components/skills'
 import { Socials } from './_components/socials'
 
 export default function Page() {
   return (
     <main className="relative space-y-24 scroll-smooth">
-      <div className="absolute -top-10 animate-pulse rounded-full border bg-orange-500 px-4 py-2 font-semibold">
-        Building...
-      </div>
-
       {/* Hero */}
       <section className="flex flex-col-reverse  items-start gap-8 md:flex-row">
         {/* Informations */}
@@ -112,6 +109,10 @@ export default function Page() {
       {/* Skills */}
       <section>
         <Heading>Skills</Heading>
+
+        <div>
+          <Skills />
+        </div>
       </section>
 
       {/* Projects */}

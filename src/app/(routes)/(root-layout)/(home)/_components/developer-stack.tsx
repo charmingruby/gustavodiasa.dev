@@ -49,7 +49,7 @@ export function DeveloperStack() {
           alt={alt}
           key={alt}
           className="h-8 w-8"
-          draggable="false"
+          draggable={false}
         />
       ))}
     </div>

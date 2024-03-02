@@ -1,8 +1,7 @@
 'use client'
 
-import { Clipboard, ClipboardCheck, Copy, CopyCheck } from 'lucide-react'
+import { Copy, CopyCheck } from 'lucide-react'
 import Image from 'next/image'
-import { useState } from 'react'
 
 import githubIcon from '@/assets/socials/github.png'
 import linkedinIcon from '@/assets/socials/linkedin.png'
@@ -11,7 +10,8 @@ import { Input } from '@/components/ui/input'
 import { email } from '@/data/profile'
 
 export function Socials() {
-  const [copied, setCopied] = useState<boolean>(false)
+  // const [copied, setCopied] = useState<boolean>(false)
+  const copied = false
 
   return (
     <div className="flex items-start gap-4">
