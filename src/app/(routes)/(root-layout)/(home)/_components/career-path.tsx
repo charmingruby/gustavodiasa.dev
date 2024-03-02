@@ -13,7 +13,6 @@ export function CareerPath() {
               role,
               enteprise,
               location,
-              description,
               site,
               technologies,
               finishedAt,
@@ -31,26 +30,28 @@ export function CareerPath() {
                 </div>
               </div>
 
-              <div className="mt-1.5 pb-6">
+              <div className="mt-1.5 pb-12">
                 <div className="mb-3 flex items-center gap-2 text-lg font-semibold">
                   <span>{startedAt}</span>
-                  <div className="h-0.5 w-2 rounded-full bg-zinc-500" />
+                  <div className="h-0.5 w-2 rounded-full bg-muted-foreground" />
                   <span>{finishedAt}</span>
                 </div>
 
-                <strong>{role}</strong>
+                <strong className="mb-2 block text-xl">{role}</strong>
 
-                <div className="flex items-center">
-                  <a href={site} target="_blank">
+                <div className="mb-6 flex items-center gap-2">
+                  <a
+                    href={site}
+                    target="_blank"
+                    className="underline underline-offset-4"
+                  >
                     {enteprise}
                   </a>
 
-                  <div className="h-1.5 w-1.5 bg-zinc-500" />
+                  <div className="h-1 w-1 rounded-full bg-muted-foreground" />
 
-                  <span>{location}</span>
+                  <span className="text-muted-foreground">{location}</span>
                 </div>
-
-                <p className="mb-4">{description}</p>
 
                 <div className="space-x-1 space-y-1">
                   {technologies.map((tech) => (
@@ -62,11 +63,11 @@ export function CareerPath() {
           ),
         )}
 
-        <div className="mt-8 flex items-center gap-3">
+        <div className="flex items-center gap-3">
           <div className="z-10 flex h-8 w-8 items-center justify-center rounded-full bg-foreground">
             <Play className="h-4 w-4 text-background" strokeWidth={2.5} />
           </div>
-          <span>Started at Mar 2021</span>
+          <span>Starts at Mar 2021</span>
         </div>
       </div>
 

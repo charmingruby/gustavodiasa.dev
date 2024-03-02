@@ -2,7 +2,6 @@ interface Experience {
   role: string
   enteprise: string
   technologies: string[]
-  description: string
   site: string
   location: string
   startedAt: string
@@ -14,7 +13,6 @@ const career: Experience[] = [
     role: 'Junior Backend Developer',
     enteprise: 'Concatech',
     technologies: ['Elixir', 'Phoenix', 'Postgres', 'Tests'],
-    description: 'Develop new features and maintain existing applications.',
     location: 'Remote, Brazil',
     finishedAt: 'Present',
     startedAt: 'Nov 2023',
@@ -33,8 +31,6 @@ const career: Experience[] = [
       'GraphQL',
       'Postgres',
     ],
-    description:
-      'Acting as a Full Stack Developer creating and maintaining applications. In addition, dealing with customers.',
     location: 'Remote, Brazil',
     finishedAt: 'Present',
     startedAt: 'Jun 2023',
@@ -48,8 +44,6 @@ const career: Experience[] = [
     startedAt: 'Dec 2022',
     technologies: ['Node', 'React', 'React Native', 'Postgres'],
     location: 'Juiz de Fora - MG, Brazil',
-    description:
-      'Developed a teleconsultation application for remote medical care of patients with no financial conditions.',
   },
   {
     enteprise: 'UFJF',
@@ -57,10 +51,8 @@ const career: Experience[] = [
     site: 'https://www2.ufjf.br/ufjf/',
     finishedAt: 'Apr 2023',
     startedAt: 'Feb 2023',
-    technologies: ['Java', 'Git'],
+    technologies: ['Java'],
     location: 'Juiz de Fora - MG, Brazil',
-    description:
-      'Developed a project that analyzes developers skills by the commits on Github.',
   },
 ]
 
