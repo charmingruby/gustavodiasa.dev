@@ -6,7 +6,7 @@ import { JetBrains_Mono as JetBrainsMono } from 'next/font/google'
 import { Footer } from './_components/footer'
 import { ScrollToTopButton } from './_components/scroll-to-top-button'
 
-export const fontSans = JetBrainsMono({
+const fontSans = JetBrainsMono({
   subsets: ['latin'],
   variable: '--font-sans',
 })
