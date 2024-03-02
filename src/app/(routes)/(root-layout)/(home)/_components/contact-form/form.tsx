@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 
@@ -12,6 +13,10 @@ export function ContactForm() {
       <Input placeholder="Subject" />
 
       <Textarea placeholder="Message" />
+
+      <Button size="lg" className="ml-auto w-fit text-base">
+        Send
+      </Button>
     </form>
   )
 }

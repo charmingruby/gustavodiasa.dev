@@ -1,3 +1,4 @@
+import { Mails } from 'lucide-react'
 import Image from 'next/image'
 
 import avatar from '@/assets/avatar.png'
@@ -5,18 +6,24 @@ import githubIcon from '@/assets/socials/github.png'
 import linkedinIcon from '@/assets/socials/linkedin.png'
 import { Button } from '@/components/ui/button'
 import { Heading } from '@/components/ui/heading'
+import { Separator } from '@/components/ui/separator'
 import { githubUrl, linkedinUrl, name, role } from '@/data/profile'
 
 import { CareerPath } from './_components/career-path'
 import { ContactForm } from './_components/contact-form/form'
 import { DeveloperStack } from './_components/developer-stack'
 import { DownloadCVButton } from './_components/download-cv-button'
+import { Socials } from './_components/socials'
 
 export default function Page() {
   return (
-    <main className="space-y-24 scroll-smooth">
+    <main className="relative space-y-24 scroll-smooth">
+      <div className="absolute -top-10 animate-pulse rounded-full border bg-orange-500 px-4 py-2 font-semibold">
+        Building...
+      </div>
+
       {/* Hero */}
-      <section className="flex items-start gap-8">
+      <section className="flex flex-col-reverse  items-start gap-8 md:flex-row">
         {/* Informations */}
         <div className="flex flex-1 flex-col">
           <div className="">
@@ -120,9 +127,29 @@ export default function Page() {
 
       {/* Contact Form */}
       <section>
-        <Heading>Connect</Heading>
+        <Heading>Get in touch</Heading>
 
-        <ContactForm />
+        <div className="mb-8">
+          <p className="leading-relaxed text-muted-foreground">
+            Feel free to contact me anywhere, at anytime. I{"'"}ll answer as
+            soon as possible.
+          </p>
+        </div>
+
+        <div className="mb-12">
+          <Socials />
+        </div>
+
+        <Separator orientation="horizontal" className="my-12" />
+
+        <div>
+          <div className="mb-4 flex items-center gap-2">
+            <Mails />
+            <h2>Send an e-mail</h2>
+          </div>
+
+          <ContactForm />
+        </div>
       </section>
     </main>
   )
