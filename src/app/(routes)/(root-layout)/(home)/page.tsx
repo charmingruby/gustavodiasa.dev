@@ -1,5 +1,6 @@
-import { Mails } from 'lucide-react'
+import { ArrowRight, Mails } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import avatar from '@/assets/avatar.png'
 import githubIcon from '@/assets/socials/github.png'
@@ -13,6 +14,7 @@ import { CareerPath } from './_components/career-path'
 import { ContactForm } from './_components/contact-form/form'
 import { DeveloperStack } from './_components/developer-stack'
 import { DownloadCVButton } from './_components/download-cv-button'
+import { Projects } from './_components/projects'
 import { Skills } from './_components/skills'
 import { Socials } from './_components/socials'
 
@@ -117,7 +119,27 @@ export default function Page() {
 
       {/* Projects */}
       <section>
-        <Heading>Projects</Heading>
+        <div className="mb-8 flex items-center justify-between">
+          <Heading className="mb-0">Projects</Heading>
+
+          <Button
+            variant="ghost"
+            className="text-muted-foreground hover:text-foreground"
+          >
+            <Link
+              href="/projects"
+              prefetch={false}
+              className="flex items-center gap-2"
+            >
+              View all projects
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
+
+        <div>
+          <Projects />
+        </div>
       </section>
 
       {/* Career */}

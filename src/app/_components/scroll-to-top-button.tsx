@@ -4,7 +4,6 @@ import { ChevronUp } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
 import { Button } from '@/components/ui/button'
-import { MaxWidthWrapper } from '@/components/ui/max-width-wrapper'
 
 export function ScrollToTopButton() {
   const [progressWidth, setProgressWidth] = useState(0)
@@ -28,15 +27,13 @@ export function ScrollToTopButton() {
   }, [])
 
   return (
-    <MaxWidthWrapper className={`fixed bottom-3 flex justify-end`}>
-      <Button
-        className={`${progressWidth === 0 ? 'hidden' : 'flex'}`}
-        size="icon"
-      >
-        <a href="#">
-          <ChevronUp />
-        </a>
-      </Button>
-    </MaxWidthWrapper>
+    <Button
+      className={`${progressWidth === 0 ? 'hidden' : 'flex'} fixed bottom-4 right-4`}
+      size="icon"
+    >
+      <a href="#">
+        <ChevronUp />
+      </a>
+    </Button>
   )
 }
