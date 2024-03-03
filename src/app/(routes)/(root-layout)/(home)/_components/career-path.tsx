@@ -1,4 +1,4 @@
-import { CalendarDays, Play } from 'lucide-react'
+import { CalendarDays, Link, Play } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
 import { career } from '@/data/career'
@@ -12,6 +12,7 @@ export function CareerPath() {
             {
               role,
               enteprise,
+              description,
               location,
               site,
               technologies,
@@ -31,20 +32,24 @@ export function CareerPath() {
               </div>
 
               <div className="mt-1.5 pb-12">
+                {/* Time */}
                 <div className="mb-3 flex items-center gap-2 text-lg font-semibold">
                   <span>{startedAt}</span>
                   <div className="h-0.5 w-2 rounded-full bg-muted-foreground" />
                   <span>{finishedAt}</span>
                 </div>
 
-                <strong className="mb-2 block text-xl">{role}</strong>
+                {/* Role */}
+                <strong className="mb-3 block text-xl">{role}</strong>
 
+                {/* Enterprise */}
                 <div className="mb-6 flex items-center gap-2">
                   <a
                     href={site}
                     target="_blank"
-                    className="underline underline-offset-4"
+                    className="flex items-center gap-2 underline underline-offset-4"
                   >
+                    <Link className="h-4 w-4" />
                     {enteprise}
                   </a>
 
@@ -53,6 +58,12 @@ export function CareerPath() {
                   <span className="text-muted-foreground">{location}</span>
                 </div>
 
+                {/* Description */}
+                <span className="mb-4 block text-sm leading-relaxed text-muted-foreground">
+                  {description}
+                </span>
+
+                {/* Badges */}
                 <div className="space-x-1 space-y-1">
                   {technologies.map((tech) => (
                     <Badge key={tech}>{tech}</Badge>

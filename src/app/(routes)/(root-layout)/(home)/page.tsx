@@ -24,7 +24,7 @@ export default function Page() {
         {/* Informations */}
         <div className="flex flex-1 flex-col">
           <div className="">
-            <h1 className="my-0 mb-2 text-5xl font-bold">{name}</h1>
+            <h1 className="my-0 mb-2 text-4xl font-bold md:text-5xl">{name}</h1>
             <strong className="text-lg text-muted-foreground">{role}</strong>
           </div>
 

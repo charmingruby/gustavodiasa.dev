@@ -10,7 +10,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <div>
       <Nav />
       <Drawer />
-      <MaxWidthWrapper className="mt-32">{children}</MaxWidthWrapper>
+      <MaxWidthWrapper className="mt-24 md:mt-32">{children}</MaxWidthWrapper>
     </div>
   )
 }
