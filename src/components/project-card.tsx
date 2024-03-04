@@ -44,7 +44,6 @@ export function ProjectCard({
           <Link
             key={name}
             href={url}
-            prefetch={false}
             className="flex items-center gap-2 underline underline-offset-4"
           >
             <LinkIcon className="h-4 w-4" />

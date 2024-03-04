@@ -126,11 +126,7 @@ export default function Page() {
             variant="ghost"
             className="text-muted-foreground hover:text-foreground"
           >
-            <Link
-              href="/projects"
-              prefetch={false}
-              className="flex items-center gap-2"
-            >
+            <Link href="/projects" className="flex items-center gap-2">
               View all projects
               <ArrowRight className="h-4 w-4" />
             </Link>

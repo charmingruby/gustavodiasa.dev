@@ -21,7 +21,7 @@ const projects: Project[] = [
     technologies: ['Next', 'React', 'TypeScript', 'Tailwind'],
   },
   {
-    name: 'Consulmagno & Assis Advocacia',
+    name: 'Consulmagno & Assis',
     description:
       'Software House Platform aiming to create custom applications that fits with the customers necessities.',
     githubUrl: 'https://github.com/charmingruby/apperize',
