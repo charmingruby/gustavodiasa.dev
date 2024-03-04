@@ -1,5 +1,6 @@
 'use client'
 
+import { Loader } from '@/components/loader'
 import { Button } from '@/components/ui/button'
 import {
   Form,
@@ -77,9 +78,10 @@ export function ContactForm() {
         <Button
           type="submit"
           size="lg"
-          className="ml-auto w-full text-base md:w-fit"
+          disabled={form.formState.isSubmitting}
+          className="ml-auto w-full md:w-fit"
         >
-          Send
+          {form.formState.isSubmitting ? <Loader /> : <span>Send</span>}
         </Button>
       </form>
     </Form>

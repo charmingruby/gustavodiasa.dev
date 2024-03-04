@@ -26,10 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <DrawerContextProvider>
-        <body
-          className={`${fontSans.variable} dark relative min-h-screen scroll-smooth bg-neutral-950 font-sans antialiased`}
-        >
+      <body
+        className={`${fontSans.variable} dark relative min-h-screen scroll-smooth bg-neutral-950 font-sans antialiased`}
+      >
+        <DrawerContextProvider>
           <div className="fixed left-0 top-0 -z-10 h-[134px] w-[134px] rounded-full bg-orange-500 opacity-50 blur-[150px] md:blur-[350px] lg:h-[300px] lg:w-[300px]" />
           <div className="fixed bottom-0 right-0 -z-10 h-[134px] w-[134px] rounded-full bg-violet-500 opacity-50 blur-[150px] md:blur-[350px] lg:h-[300px] lg:w-[300px]" />
           <div className="flex w-full flex-col items-center ">
@@ -37,9 +37,9 @@ export default function RootLayout({
             <ScrollToTopButton />
             <Footer />
           </div>
-        </body>
-        <Toaster richColors position="bottom-center" theme="dark" />
-      </DrawerContextProvider>
+          <Toaster richColors position="bottom-center" theme="dark" />
+        </DrawerContextProvider>
+      </body>
     </html>
   )
 }
