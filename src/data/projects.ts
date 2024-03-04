@@ -14,26 +14,24 @@ export interface Project {
 const projects: Project[] = [
   {
     name: 'Apperize',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
+    description: 'Software House landing page.',
     githubUrl: 'https://github.com/charmingruby/apperize',
     links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
     technologies: ['Next', 'React', 'TypeScript', 'Tailwind'],
   },
   {
     name: 'Consulmagno & Assis',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Institutional website freelance for a law firm.',
+    githubUrl: 'https://github.com/charmingruby/consulmagno-e-assis',
+    links: [{ name: 'Website', url: 'https://www.consulmagnoeassis.com.br/' }],
     technologies: ['Next', 'React', 'Tailwind', 'TypeScript', 'GraphQL'],
   },
   {
     name: 'Share It',
     description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+      'Forum API that uses concepts of Domain Driven Design and Clean Architecture.',
+    githubUrl: 'https://github.com/charmingruby/share-it',
+    links: [],
     technologies: [
       'Node',
       'Nest',
@@ -49,49 +47,44 @@ const projects: Project[] = [
   {
     name: 'Clize',
     description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+      'CLI for internal project team assignments quick communication.',
+    githubUrl: 'https://github.com/charmingruby/clize',
+    links: [],
     technologies: ['Golang', 'Redis', 'API', 'CLI'],
   },
   {
     name: 'Upl',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Group upload sharing application.',
+    githubUrl: 'https://github.com/charmingruby/upl',
+    links: [],
     technologies: ['Golang', 'Cloudflare', 'Kafka', 'PostgreSQL', 'API'],
   },
   {
     name: 'Backpago',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Files upload service.',
+    githubUrl: 'https://github.com/charmingruby/backpago',
+    links: [],
     technologies: ['Golang', 'AWS', 'RabbitMQ', 'PostgreSQL', 'API', 'CLI'],
   },
   {
     name: 'Nigiri',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Japanese food restaurants franchise delivery.',
+    githubUrl: 'https://github.com/charmingruby/nigiri',
+    links: [],
     technologies: ['Node', 'TypeScript', 'Elysia', 'Bun', 'Drizzle', 'API'],
   },
   {
     name: 'Lider Instituto',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Institutional website freelance for a dentists institute.',
+    githubUrl: 'https://github.com/charmingruby/lider-instituto',
+    links: [{ name: 'Website', url: 'https://www.liderinstituto.com.br/' }],
     technologies: ['Next', 'React', 'TypeScript', 'Tailwind'],
   },
   {
     name: 'Quasar',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Barber shop scheduling MVP.',
+    githubUrl: 'https://github.com/charmingruby/quasar',
+    links: [],
     technologies: [
       'Next',
       'React',
@@ -104,18 +97,16 @@ const projects: Project[] = [
   },
   {
     name: 'Pitaya Theme',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Cozy VSCode theme to programm with.',
+    githubUrl: 'https://github.com/charmingruby/pitaya',
+    links: [],
     technologies: ['VSCode Theme'],
   },
   {
     name: 'Trinket Gym',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Gym pass service.',
+    githubUrl: 'https://github.com/charmingruby/trinket-gym-api',
+    links: [],
     technologies: [
       'Node',
       'Prisma',
@@ -128,10 +119,9 @@ const projects: Project[] = [
   },
   {
     name: 'Ping',
-    description:
-      'Software House Platform aiming to create custom applications that fits with the customers necessities.',
-    githubUrl: 'https://github.com/charmingruby/apperize',
-    links: [{ name: 'Website', url: 'https://www.apperize.com.br' }],
+    description: 'Notification service.',
+    githubUrl: 'https://github.com/charmingruby/ping-api',
+    links: [],
     technologies: ['Node', 'Nest', 'Prisma', 'TypeScript', 'PostgreSQL', 'API'],
   },
 ]

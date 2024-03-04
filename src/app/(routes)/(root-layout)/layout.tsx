@@ -7,10 +7,12 @@ import { Nav } from './_components/nav'
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <div>
+    <div className="flex flex-col ">
       <Nav />
       <Drawer />
-      <MaxWidthWrapper className="mt-24 md:mt-32">{children}</MaxWidthWrapper>
+      <MaxWidthWrapper className="mt-24 flex w-full flex-col  md:mt-32">
+        {children}
+      </MaxWidthWrapper>
     </div>
   )
 }

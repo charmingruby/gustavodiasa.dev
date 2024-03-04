@@ -1,13 +1,14 @@
 'use client'
 
 import { Menu, X } from 'lucide-react'
-import Link from 'next/link'
 import { useContext } from 'react'
 
 import { Button } from '@/components/ui/button'
 import { MaxWidthWrapper } from '@/components/ui/max-width-wrapper'
 import { drawerContext } from '@/context/drawer-context'
 import { name } from '@/data/profile'
+
+import { NavItem } from '../nav-item'
 
 export function Nav() {
   const { isOpen, toggleMenu } = useContext(drawerContext)
@@ -20,21 +21,11 @@ export function Nav() {
         </div>
 
         <nav className="hidden items-center gap-2 md:flex">
-          <div>
-            <Button size="sm" variant="ghost">
-              <Link href="/">Skills</Link>
-            </Button>
-
-            <Button size="sm" variant="ghost">
-              <Link href="/">Projects</Link>
-            </Button>
-
-            <Button size="sm" variant="ghost">
-              <Link href="/">Career</Link>
-            </Button>
-          </div>
-
-          <Button>Get in touch</Button>
+          <NavItem name="About" url="about" />
+          <NavItem name="Skills" url="skills" />
+          <NavItem name="Projects" url="projects" />
+          <NavItem name="Career" url="career" />
+          <NavItem name="Get in touch" url="contact" featured />
         </nav>
 
         <Button size="icon" className="flex md:hidden" onClick={toggleMenu}>

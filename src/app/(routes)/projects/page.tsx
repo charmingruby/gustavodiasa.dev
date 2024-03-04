@@ -9,10 +9,8 @@ export default function Page() {
       <div className="mb-8">
         <Heading>Projects</Heading>
         <p className="leading-relaxed text-muted-foreground">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-          doloribus reiciendis molestias eveniet ut nisi ratione eligendi, quis
-          quisquam delectus, cum ea. Natus doloribus laboriosam cum fugiat
-          officia reprehenderit commodi!
+          Here are some of my recent projects. Explore this variety and discover
+          the results of my development work.
         </p>
       </div>
 

@@ -39,18 +39,20 @@ export function ProjectCard({
         <CardDescription>{description}</CardDescription>
       </CardHeader>
 
-      <CardContent className="p-4">
-        {links.map(({ name, url }) => (
-          <Link
-            key={name}
-            href={url}
-            className="flex items-center gap-2 underline underline-offset-4"
-          >
-            <LinkIcon className="h-4 w-4" />
-            Website
-          </Link>
-        ))}
-      </CardContent>
+      {links.length > 0 && (
+        <CardContent className="p-4">
+          {links.map(({ name, url }) => (
+            <Link
+              key={name}
+              href={url}
+              className="flex items-center gap-2 underline underline-offset-4"
+            >
+              <LinkIcon className="h-4 w-4" />
+              Website
+            </Link>
+          ))}
+        </CardContent>
+      )}
 
       <CardFooter className="flex flex-wrap gap-2 p-4">
         {technologies.map((tech) => (

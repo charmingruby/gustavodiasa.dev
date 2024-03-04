@@ -20,9 +20,9 @@ import { Socials } from './_components/socials'
 
 export default function Page() {
   return (
-    <main className="relative space-y-24 scroll-smooth">
+    <main className="space-y-24 ">
       {/* Hero */}
-      <section className="flex flex-col-reverse  items-start gap-8 md:flex-row">
+      <section className="flex flex-col-reverse items-start gap-8 md:flex-row">
         {/* Informations */}
         <div className="flex flex-1 flex-col">
           <div className="">
@@ -33,7 +33,7 @@ export default function Page() {
           <div className="my-8">
             <p className="leading-relaxed ">
               Always aiming to build scalable, reactive and modern applications
-              for the web with what is new in the market.
+              with what is new in the market.
             </p>
           </div>
 
@@ -72,7 +72,7 @@ export default function Page() {
       </section>
 
       {/* About */}
-      <section>
+      <section id="about" className="scroll-mt-24">
         <Heading>About</Heading>
 
         <div className="space-y-4 leading-relaxed text-muted-foreground">
@@ -90,9 +90,9 @@ export default function Page() {
           </p>
 
           <p>
-            I started my journey in 2021, acting as a Freelancer and Projects
-            Assistant, gaining valuable experience along the way. With this
-            extensive experience, I took the bold step of founding my own
+            I started my journey as a dev in 2021, acting as a Freelancer and
+            Projects Assistant, gaining valuable experience along the way. With
+            this extensive experience, I took the bold step of founding my own
             software house,{' '}
             <a
               target="_blank"
@@ -103,11 +103,22 @@ export default function Page() {
             </a>
             , specializing in custom software development.
           </p>
+
+          <p>
+            Currently, I{"'"}m working in{' '}
+            <span className="font-semibold text-foreground">
+              Concatech as Junior Back-end Elixir{' '}
+            </span>
+            and in{' '}
+            <span className="font-semibold text-foreground">
+              Apperize as Full-Stack Typescript & Go.{' '}
+            </span>
+          </p>
         </div>
       </section>
 
       {/* Skills */}
-      <section>
+      <section id="skills" className="scroll-mt-24">
         <Heading>Skills</Heading>
 
         <div>
@@ -116,7 +127,7 @@ export default function Page() {
       </section>
 
       {/* Projects */}
-      <section>
+      <section id="projects" className="scroll-mt-24">
         <div className="mb-8 flex items-center justify-between">
           <Heading className="mb-0">Projects</Heading>
 
@@ -137,13 +148,13 @@ export default function Page() {
       </section>
 
       {/* Career */}
-      <section>
+      <section id="career" className="scroll-mt-24">
         <Heading>Career</Heading>
         <CareerPath />
       </section>
 
       {/* Contact Form */}
-      <section>
+      <section id="contact" className="scroll-mt-24">
         <Heading>Get in touch</Heading>
 
         <div className="mb-8">
