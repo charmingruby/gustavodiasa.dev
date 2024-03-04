@@ -21,19 +21,19 @@ export function Nav() {
 
         <nav className="hidden items-center gap-2 md:flex">
           <div>
-            <Button size="sm" variant="ghost" asChild>
+            <Button size="sm" variant="ghost" >
               <Link prefetch={false} href="/">
                 Skills
               </Link>
             </Button>
 
-            <Button size="sm" variant="ghost" asChild>
+            <Button size="sm" variant="ghost" >
               <Link prefetch={false} href="/">
                 Projects
               </Link>
             </Button>
 
-            <Button size="sm" variant="ghost" asChild>
+            <Button size="sm" variant="ghost" >
               <Link prefetch={false} href="/">
                 Career
               </Link>

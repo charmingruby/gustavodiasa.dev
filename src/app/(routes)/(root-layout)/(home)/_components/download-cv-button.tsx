@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 export function DownloadCVButton() {
   return (
-    <Button asChild className="text-base">
+    <Button  className="text-base">
       <a
         href="/GustavoDias_CV_2024.pdf"
         target="_blank"

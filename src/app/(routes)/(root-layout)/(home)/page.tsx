@@ -42,13 +42,13 @@ export default function Page() {
           <DeveloperStack />
 
           <div className="mt-12 flex items-center gap-2">
-            <Button size="icon" asChild>
+            <Button size="icon">
               <a href={githubUrl} target="_blank">
                 <Image src={githubIcon} alt="Github icon" className="h-7 w-7" />
               </a>
             </Button>
 
-            <Button size="icon" asChild>
+            <Button size="icon">
               <a href={linkedinUrl} target="_blank">
                 <Image
                   src={linkedinIcon}
