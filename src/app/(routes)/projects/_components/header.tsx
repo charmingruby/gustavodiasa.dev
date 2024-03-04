@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 export function Header() {
   return (
-    <header className="my-8">
+    <header className="z-10 mb-2 mt-8 md:my-8">
       <Button
         variant="ghost"
         className="text-muted-foreground hover:text-foreground"
