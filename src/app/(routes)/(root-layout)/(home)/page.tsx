@@ -167,7 +167,9 @@ export default function Page() {
             <h2>Send an e-mail</h2>
           </div>
 
-          <ContactForm />
+          <div>
+            <ContactForm />
+          </div>
         </div>
       </section>
     </main>

@@ -14,20 +14,26 @@ export function Socials() {
   const copied = false
 
   return (
-    <div className="flex items-start gap-4">
-      <Button size="lg" className="text-base font-medium">
-        Github
-        <Image className="h-5 w-5" src={githubIcon} alt="Github Icon" />
-      </Button>
-      <Button size="lg" className="text-base font-medium">
-        Linkedin
-        <Image className="h-3.5 w-3.5" src={linkedinIcon} alt="Linkedin Icon" />
-      </Button>
+    <div className="flex flex-col items-center gap-4 md:flex-row">
+      <div className="flex w-full items-center gap-2 md:w-fit">
+        <Button size="lg" className="w-full text-base font-medium md:w-fit">
+          Github
+          <Image className="h-5 w-5" src={githubIcon} alt="Github Icon" />
+        </Button>
+        <Button size="lg" className="w-full text-base font-medium md:w-fit">
+          Linkedin
+          <Image
+            className="h-3.5 w-3.5"
+            src={linkedinIcon}
+            alt="Linkedin Icon"
+          />
+        </Button>
+      </div>
 
       <div className="flex w-full flex-col items-end">
-        <div className="relative w-full flex-1">
+        <div className="relative w-full">
           <Input value={email} disabled />
-          <Button variant="ghost" className="absolute right-0 top-0">
+          <Button variant="ghost" className="absolute right-0 top-0 h-11">
             {copied ? (
               <CopyCheck className="h-5 w-5 text-emerald-500" />
             ) : (
@@ -35,10 +41,6 @@ export function Socials() {
             )}
           </Button>
         </div>
-
-        <small className="mt-1 block text-right text-xs text-muted-foreground">
-          Copy email
-        </small>
       </div>
     </div>
   )
