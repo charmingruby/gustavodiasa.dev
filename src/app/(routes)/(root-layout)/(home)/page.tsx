@@ -31,11 +31,9 @@ export default function Page() {
           </div>
 
           <div className="my-8">
-            <p className="leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-              eveniet eos quibusdam iusto error vitae aperiam. Magni quia ipsa,
-              eveniet laborum ut eos dicta, tenetur assumenda, adipisci incidunt
-              consectetur quaerat.
+            <p className="leading-relaxed ">
+              Always aiming to build scalable, reactive and modern applications
+              for the web with what is new in the market.
             </p>
           </div>
 

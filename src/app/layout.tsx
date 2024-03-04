@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 
 import type { Metadata } from 'next'
 import { JetBrains_Mono as JetBrainsMono } from 'next/font/google'
+import { Toaster } from 'sonner'
 
 import { DrawerContextProvider } from '@/context/drawer-context'
 
@@ -38,6 +39,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </body>
+        <Toaster richColors position="bottom-center" theme="dark" />
       </DrawerContextProvider>
     </html>
   )
