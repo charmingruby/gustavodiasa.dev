@@ -22,10 +22,19 @@ export function ProjectCard({
   githubUrl,
   technologies,
   links,
+  building,
 }: Project) {
   return (
     <Card className="bg-transparent">
       <CardHeader className="space-y-3 p-4">
+        {building && (
+          <div className="flex w-fit animate-pulse items-center gap-1 rounded-full border px-2 py-1">
+            <div className="h-1 w-1 rounded-full bg-orange-500" />
+
+            <small className="text-xs text-orange-500">Building...</small>
+          </div>
+        )}
+
         <div className="flex items-center">
           <CardTitle className="flex-1 leading-tight">{name}</CardTitle>
 

@@ -9,6 +9,7 @@ export interface Project {
   githubUrl: string
   links: Link[]
   technologies: string[]
+  building?: boolean
 }
 
 const projects: Project[] = [
@@ -45,19 +46,20 @@ const projects: Project[] = [
     ],
   },
   {
+    name: 'Upl',
+    description: 'Group upload sharing application.',
+    githubUrl: 'https://github.com/charmingruby/upl',
+    links: [],
+    building: true,
+    technologies: ['Golang', 'Cloudflare', 'Kafka', 'PostgreSQL', 'API'],
+  },
+  {
     name: 'Clize',
     description:
       'CLI for internal project team assignments quick communication.',
     githubUrl: 'https://github.com/charmingruby/clize',
     links: [],
     technologies: ['Golang', 'Redis', 'API', 'CLI'],
-  },
-  {
-    name: 'Upl',
-    description: 'Group upload sharing application.',
-    githubUrl: 'https://github.com/charmingruby/upl',
-    links: [],
-    technologies: ['Golang', 'Cloudflare', 'Kafka', 'PostgreSQL', 'API'],
   },
   {
     name: 'Backpago',
