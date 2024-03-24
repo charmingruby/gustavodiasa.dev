@@ -54,7 +54,7 @@ const projects: Project[] = [
   },
   {
     name: 'Invarc',
-    description: 'Group upload sharing application.',
+    description: 'Investments metrics tracking application.',
     githubUrl: 'https://github.com/charmingruby/invarc',
     links: [],
     technologies: ['Elixir', 'Phoenix', 'PostgreSQL', 'API'],
