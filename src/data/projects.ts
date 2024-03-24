@@ -50,8 +50,29 @@ const projects: Project[] = [
     description: 'Group upload sharing application.',
     githubUrl: 'https://github.com/charmingruby/upl',
     links: [],
-    building: true,
-    technologies: ['Golang', 'Cloudflare', 'Kafka', 'PostgreSQL', 'API'],
+    technologies: ['Golang', 'Cloudflare', 'PostgreSQL', 'API'],
+  },
+  {
+    name: 'Invarc',
+    description: 'Group upload sharing application.',
+    githubUrl: 'https://github.com/charmingruby/invarc',
+    links: [],
+    technologies: ['Elixir', 'Phoenix', 'PostgreSQL', 'API'],
+  },
+  {
+    name: 'MVPlease',
+    description: 'Consistent and scalable MVP boilerplate.',
+    githubUrl: 'https://github.com/charmingruby/mvplease',
+    links: [],
+    technologies: ['Golang', 'Cloudflare', 'PostgreSQL', 'API'],
+  },
+  {
+    name: 'Flowdes',
+    description:
+      'Service to transform dense workflows into significant tiny nodes.',
+    githubUrl: 'https://github.com/charmingruby/flowdes',
+    links: [],
+    technologies: ['Golang', 'gRPC', 'RabbitMQ', 'PostgreSQL', 'API'],
   },
   {
     name: 'Clize',
@@ -67,13 +88,6 @@ const projects: Project[] = [
     githubUrl: 'https://github.com/charmingruby/backpago',
     links: [],
     technologies: ['Golang', 'AWS', 'RabbitMQ', 'PostgreSQL', 'API', 'CLI'],
-  },
-  {
-    name: 'Nigiri',
-    description: 'Japanese food restaurants franchise delivery.',
-    githubUrl: 'https://github.com/charmingruby/nigiri',
-    links: [],
-    technologies: ['Node', 'TypeScript', 'Elysia', 'Bun', 'Drizzle', 'API'],
   },
   {
     name: 'Lider Instituto',

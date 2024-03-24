@@ -8,6 +8,7 @@ import mysqlIcon from '@/assets/technologies/mysql.svg'
 import nestIcon from '@/assets/technologies/nest.svg'
 import nextIcon from '@/assets/technologies/next.svg'
 import nodeIcon from '@/assets/technologies/node.svg'
+import phoenixIcon from '@/assets/technologies/phoenix.svg'
 import postgresIcon from '@/assets/technologies/postgresql.svg'
 import rabbitMqIcon from '@/assets/technologies/rabbitmq.svg'
 import reactIcon from '@/assets/technologies/react.svg'
@@ -25,6 +26,14 @@ export const skills: Technology[] = [
     url: goIcon,
   },
   {
+    alt: 'Elixir',
+    url: elixirIcon,
+  },
+  {
+    alt: 'Phoenix',
+    url: phoenixIcon,
+  },
+  {
     alt: 'Node',
     url: nodeIcon,
   },
@@ -39,10 +48,6 @@ export const skills: Technology[] = [
   {
     alt: 'Next',
     url: nextIcon,
-  },
-  {
-    alt: 'Elixir',
-    url: elixirIcon,
   },
   {
     alt: 'PostgreSQL',
