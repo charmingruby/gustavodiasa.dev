@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 import elixirIcon from '@/assets/technologies/elixir.svg'
 import goIcon from '@/assets/technologies/go.svg'
@@ -10,7 +10,7 @@ import reactIcon from '@/assets/technologies/react.svg'
 
 interface Technology {
   alt: string
-  url: unknown
+  url: StaticImageData
 }
 
 const stack: Technology[] = [

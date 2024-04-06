@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image'
+
 import dockerIcon from '@/assets/technologies/docker.svg'
 import elixirIcon from '@/assets/technologies/elixir.svg'
 import fastapiIcon from '@/assets/technologies/fastapi.svg'
@@ -18,7 +20,7 @@ import typescriptIcon from '@/assets/technologies/typescript.svg'
 
 interface Technology {
   alt: string
-  url: unknown
+  url: StaticImageData
 }
 
 export const skills: Technology[] = [
