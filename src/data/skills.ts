@@ -1,7 +1,6 @@
-import { StaticImageData } from 'next/image'
-
 import dockerIcon from '@/assets/technologies/docker.svg'
 import elixirIcon from '@/assets/technologies/elixir.svg'
+import fastapiIcon from '@/assets/technologies/fastapi.svg'
 import goIcon from '@/assets/technologies/go.svg'
 import gqlIcon from '@/assets/technologies/graphql.svg'
 import mysqlIcon from '@/assets/technologies/mysql.svg'
@@ -10,14 +9,16 @@ import nextIcon from '@/assets/technologies/next.svg'
 import nodeIcon from '@/assets/technologies/node.svg'
 import phoenixIcon from '@/assets/technologies/phoenix.svg'
 import postgresIcon from '@/assets/technologies/postgresql.svg'
+import pythonIcon from '@/assets/technologies/python.svg'
 import rabbitMqIcon from '@/assets/technologies/rabbitmq.svg'
 import reactIcon from '@/assets/technologies/react.svg'
 import redisIcon from '@/assets/technologies/redis.svg'
 import tailwindIcon from '@/assets/technologies/tailwindcss.svg'
+import typescriptIcon from '@/assets/technologies/typescript.svg'
 
 interface Technology {
   alt: string
-  url: StaticImageData
+  url: unknown
 }
 
 export const skills: Technology[] = [
@@ -34,12 +35,24 @@ export const skills: Technology[] = [
     url: phoenixIcon,
   },
   {
+    alt: 'Typescript',
+    url: typescriptIcon,
+  },
+  {
     alt: 'Node',
     url: nodeIcon,
   },
   {
     alt: 'Nest',
     url: nestIcon,
+  },
+  {
+    alt: 'Python',
+    url: pythonIcon,
+  },
+  {
+    alt: 'Fast API',
+    url: fastapiIcon,
   },
   {
     alt: 'React',
