@@ -4,8 +4,8 @@ import elixirIcon from '@/assets/technologies/elixir.svg'
 import goIcon from '@/assets/technologies/go.svg'
 // dev stack
 import nestIcon from '@/assets/technologies/nest.svg'
-import nextIcon from '@/assets/technologies/next.svg'
 import nodeIcon from '@/assets/technologies/node.svg'
+import phoenixIcon from '@/assets/technologies/phoenix.svg'
 import reactIcon from '@/assets/technologies/react.svg'
 
 interface Technology {
@@ -19,6 +19,14 @@ const stack: Technology[] = [
     url: goIcon,
   },
   {
+    alt: 'Elixir Icon',
+    url: elixirIcon,
+  },
+  {
+    alt: 'Phoenix Icon',
+    url: phoenixIcon,
+  },
+  {
     alt: 'Node Icon',
     url: nodeIcon,
   },
@@ -29,14 +37,6 @@ const stack: Technology[] = [
   {
     alt: 'React Icon',
     url: reactIcon,
-  },
-  {
-    alt: 'Next Icon',
-    url: nextIcon,
-  },
-  {
-    alt: 'Elixir Icon',
-    url: elixirIcon,
   },
 ]
 

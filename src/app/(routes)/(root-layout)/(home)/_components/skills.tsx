@@ -16,7 +16,7 @@ export function Skills() {
         <Card key={alt} className="bg-transparent px-1.5 py-1">
           <CardHeader className="px-1.5 py-1" />
           <CardContent className="flex  items-center gap-3 px-1.5 py-1">
-            <Image src={url} alt={alt} className="h-8 w-8" />
+            <Image src={url} alt={alt} className="h-5 w-5" />
             <CardDescription className="text-base font-medium text-foreground">
               {alt}
             </CardDescription>

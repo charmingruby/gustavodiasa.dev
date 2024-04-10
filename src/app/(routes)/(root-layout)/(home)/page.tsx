@@ -32,8 +32,8 @@ export default function Page() {
 
           <div className="my-8">
             <p className="leading-relaxed ">
-              Always aiming to build scalable, reactive and modern applications
-              with what is new in the market.
+              Software engineer with a strong passion for problem-solving and
+              creating efficient, user-friendly software solutions.
             </p>
           </div>
 
@@ -117,6 +117,12 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Career */}
+      <section id="career" className="scroll-mt-24">
+        <Heading>Career</Heading>
+        <CareerPath />
+      </section>
+
       {/* Skills */}
       <section id="skills" className="scroll-mt-24">
         <Heading>Skills</Heading>
@@ -145,12 +151,6 @@ export default function Page() {
         <div>
           <Projects />
         </div>
-      </section>
-
-      {/* Career */}
-      <section id="career" className="scroll-mt-24">
-        <Heading>Career</Heading>
-        <CareerPath />
       </section>
 
       {/* Contact Form */}
