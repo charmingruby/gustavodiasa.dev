@@ -26,8 +26,8 @@ export default function Page() {
         {/* Informations */}
         <div className="flex flex-1 flex-col">
           <div className="">
-            <h1 className="my-0 mb-2 text-4xl font-bold md:text-5xl">{name}</h1>
-            <strong className="text-lg text-muted-foreground">{role}</strong>
+            <h1 className="my-0 mb-4 text-4xl font-bold md:text-5xl">{name}</h1>
+            <span className="text-lg text-muted-foreground">{role}</span>
           </div>
 
           <div className="my-8">
@@ -81,38 +81,53 @@ export default function Page() {
             <span className="font-semibold text-foreground">
               Full Stack Developer
             </span>
-            . I{"'"}m living in Juiz de Fora, MG - Brazil, and undergraduating
-            in{' '}
+            . I{"'"}m based in Juiz de Fora, MG - Brazil, and pursuing a{' '}
             <span className="font-semibold text-foreground">
-              Computer Science at UFJF
+              Bachelor{"'"}s degree in Computer Science at UFJF
             </span>
-            .
+            . I thrive in dynamic environments where I can leverage my skills in
+            technologies to create robust and scalable solutions.
           </p>
 
           <p>
-            I started my journey as a dev in 2021, acting as a Freelancer and
-            Projects Assistant, gaining valuable experience along the way. With
-            this extensive experience, I took the bold step of founding my own
-            software house,{' '}
+            Currently, I{"'"}m gaining valuable experience at{' '}
+            <span className="font-semibold text-foreground">
+              Concatech as a Junior Backend Developer
+            </span>
+            , specializing in{' '}
+            <span className="font-semibold text-foreground">Elixir</span>. Here,
+            I{"'"}m actively involved in implementing and maintaining systems,
+            ensuring quality through comprehensive testing, and contributing to
+            architectural decisions for web applications. Concurrently, I{"'"}m
+            the <span className="font-semibold text-foreground">founder</span>{' '}
+            and part of the{' '}
             <a
               target="_blank"
               href="https://www.apperize.com.br/"
               className="font-semibold text-foreground underline underline-offset-4"
             >
               Apperize
-            </a>
-            , specializing in custom software development.
+            </a>{' '}
+            team, where I work as a{' '}
+            <span className="font-semibold text-foreground">
+              Full-Stack Developer
+            </span>
+            , proficient in{' '}
+            <span className="font-semibold text-foreground">
+              TypeScript and Go
+            </span>
+            . In this role, I lead project implementations, mentor fellow
+            developers, and engage directly with clients to deliver tailored
+            solutions.
           </p>
 
           <p>
-            Currently, I{"'"}m working in{' '}
-            <span className="font-semibold text-foreground">
-              Concatech as Junior Back-end Elixir{' '}
-            </span>
-            and in{' '}
-            <span className="font-semibold text-foreground">
-              Apperize as Full-Stack Typescript & Go.{' '}
-            </span>
+            I am seeking opportunities to further hone my skills and expand my
+            expertise in{' '}
+            <span className="font-semibold text-foreground">Full-Stack</span>{' '}
+            development, particularly in areas that align with my current focus.
+            I am eager to contribute to innovative projects that challenge and
+            inspire me, while continuously learning and growing as a developer.
           </p>
         </div>
       </section>

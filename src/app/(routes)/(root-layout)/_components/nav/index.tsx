@@ -22,9 +22,9 @@ export function Nav() {
 
         <nav className="hidden items-center gap-2 md:flex">
           <NavItem name="About" url="about" />
+          <NavItem name="Career" url="career" />
           <NavItem name="Skills" url="skills" />
           <NavItem name="Projects" url="projects" />
-          <NavItem name="Career" url="career" />
           <NavItem name="Get in touch" url="contact" featured />
         </nav>
 

@@ -22,16 +22,16 @@ export function CareerPath() {
             idx,
           ) => (
             <div key={role + idx} className="-z-10 flex items-start">
-              <div className="relative pr-3">
+              <div className="relative pr-4 sm:pr-6">
                 <div className="z-10 flex h-8 w-8 items-center justify-center rounded-full bg-foreground">
                   <CalendarDays
                     className="h-5 w-5 text-background"
-                    strokeWidth={2.5}
+                    strokeWidth={2}
                   />
                 </div>
               </div>
 
-              <div className="mt-1.5 pb-12">
+              <div className="mt-1 pb-12">
                 {/* Time */}
                 <div className="mb-3 flex items-center gap-2 text-lg font-semibold">
                   <span>{startedAt}</span>
