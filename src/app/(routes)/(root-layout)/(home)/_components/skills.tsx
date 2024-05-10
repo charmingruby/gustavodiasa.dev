@@ -11,7 +11,7 @@ import { skills } from '@/data/skills'
 
 export function Skills() {
   return (
-    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-3">
       {skills.map(({ alt, url }) => (
         <Card key={alt} className="bg-transparent px-1.5 py-1">
           <CardHeader className="px-1.5 py-1" />

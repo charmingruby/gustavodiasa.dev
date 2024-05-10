@@ -2,7 +2,6 @@ import { StaticImageData } from 'next/image'
 
 import dockerIcon from '@/assets/technologies/docker.svg'
 import elixirIcon from '@/assets/technologies/elixir.svg'
-import fastapiIcon from '@/assets/technologies/fastapi.svg'
 import goIcon from '@/assets/technologies/go.svg'
 import gqlIcon from '@/assets/technologies/graphql.svg'
 import mysqlIcon from '@/assets/technologies/mysql.svg'
@@ -24,6 +23,14 @@ interface Technology {
 }
 
 export const skills: Technology[] = [
+  {
+    alt: 'React Native',
+    url: reactIcon,
+  },
+  {
+    alt: 'React',
+    url: reactIcon,
+  },
   {
     alt: 'Golang',
     url: goIcon,
@@ -51,14 +58,6 @@ export const skills: Technology[] = [
   {
     alt: 'Python',
     url: pythonIcon,
-  },
-  {
-    alt: 'Fast API',
-    url: fastapiIcon,
-  },
-  {
-    alt: 'React',
-    url: reactIcon,
   },
   {
     alt: 'Next',

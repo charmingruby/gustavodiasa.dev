@@ -90,31 +90,22 @@ export default function Page() {
           </p>
 
           <p>
-            Currently, I{"'"}m gaining valuable experience at{' '}
+            Currently, I{"'"}m working as a{' '}
             <span className="font-semibold text-foreground">
-              Concatech as a Junior Backend Developer
+              Junior Backend Developer
             </span>
             , specializing in{' '}
-            <span className="font-semibold text-foreground">Elixir</span>. Here,
-            I{"'"}m actively involved in implementing and maintaining systems,
-            ensuring quality through comprehensive testing, and contributing to
-            architectural decisions for web applications. Concurrently, I{"'"}m
-            the <span className="font-semibold text-foreground">founder</span>{' '}
-            and part of the{' '}
-            <a
-              target="_blank"
-              href="https://www.apperize.com.br/"
-              className="font-semibold text-foreground underline underline-offset-4"
-            >
-              Apperize
-            </a>{' '}
-            team, where I work as a{' '}
+            <span className="font-semibold text-foreground">Elixir and Go</span>
+            . Here, I{"'"}m actively involved in implementing and maintaining
+            systems, ensuring quality through comprehensive testing, and
+            contributing to architectural decisions for web applications.
+            Concurrently, I{"'"}m freelancing, where I work as a{' '}
             <span className="font-semibold text-foreground">
               Full-Stack Developer
             </span>
             , proficient in{' '}
             <span className="font-semibold text-foreground">
-              TypeScript and Go
+              React, React Native and Node
             </span>
             . In this role, I lead project implementations, mentor fellow
             developers, and engage directly with clients to deliver tailored
@@ -124,7 +115,8 @@ export default function Page() {
           <p>
             I am seeking opportunities to further hone my skills and expand my
             expertise in{' '}
-            <span className="font-semibold text-foreground">Full-Stack</span>{' '}
+            <span className="font-semibold text-foreground">Mobile</span> and{' '}
+            <span className="font-semibold text-foreground">Backend</span>{' '}
             development, particularly in areas that align with my current focus.
             I am eager to contribute to innovative projects that challenge and
             inspire me, while continuously learning and growing as a developer.
