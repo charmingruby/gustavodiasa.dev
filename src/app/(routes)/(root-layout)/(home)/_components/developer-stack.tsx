@@ -15,10 +15,6 @@ interface Technology {
 
 const stack: Technology[] = [
   {
-    alt: 'React Icon',
-    url: reactIcon,
-  },
-  {
     alt: 'Go Icon',
     url: goIcon,
   },
@@ -29,6 +25,10 @@ const stack: Technology[] = [
   {
     alt: 'Phoenix Icon',
     url: phoenixIcon,
+  },
+  {
+    alt: 'React Icon',
+    url: reactIcon,
   },
   {
     alt: 'Node Icon',

@@ -92,10 +92,10 @@ export default function Page() {
           <p>
             Currently, I{"'"}m working as a{' '}
             <span className="font-semibold text-foreground">
-              Junior Backend Developer
+              Backend Developer
             </span>
             , specializing in{' '}
-            <span className="font-semibold text-foreground">Elixir and Go</span>
+            <span className="font-semibold text-foreground">Go and Elixir</span>
             . Here, I{"'"}m actively involved in implementing and maintaining
             systems, ensuring quality through comprehensive testing, and
             contributing to architectural decisions for web applications.
@@ -105,7 +105,7 @@ export default function Page() {
             </span>
             , proficient in{' '}
             <span className="font-semibold text-foreground">
-              React, React Native and Node
+              Go, Elixir, React and Node
             </span>
             . In this role, I lead project implementations, mentor fellow
             developers, and engage directly with clients to deliver tailored
@@ -115,7 +115,6 @@ export default function Page() {
           <p>
             I am seeking opportunities to further hone my skills and expand my
             expertise in{' '}
-            <span className="font-semibold text-foreground">Mobile</span> and{' '}
             <span className="font-semibold text-foreground">Backend</span>{' '}
             development, particularly in areas that align with my current focus.
             I am eager to contribute to innovative projects that challenge and

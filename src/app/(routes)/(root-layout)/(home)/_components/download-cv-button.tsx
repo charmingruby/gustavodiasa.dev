@@ -6,7 +6,7 @@ export function DownloadCVButton() {
   return (
     <Button className="text-base">
       <a
-        href="/CV-EN Gustavo Dias.pdf"
+        href="/CV-BR Gustavo Dias.pdf"
         target="_blank"
         download
         className="flex items-center gap-2 text-base font-semibold"

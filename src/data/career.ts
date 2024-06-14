@@ -11,11 +11,11 @@ interface Experience {
 
 const career: Experience[] = [
   {
-    role: 'Junior Backend Developer',
+    role: 'Backend Developer',
     enteprise: 'Concatech',
     description:
       'Developed, maintained, tested, and shipped production APIs for customers systems. Also collaborated with internal microservices development and tooling build.',
-    technologies: ['Elixir', 'Phoenix', 'Postgres', 'Tests'],
+    technologies: ['Go', 'Elixir', 'Phoenix', 'Postgres', 'Tests'],
     location: 'Remote, Brazil',
     finishedAt: 'Present',
     startedAt: 'Nov 2023',
@@ -27,7 +27,7 @@ const career: Experience[] = [
     description:
       'Built, styled, and shipped high-quality websites, APIs, systems, and digital experiences for a diverse array of projects for clients. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.',
     technologies: [
-      'Golang',
+      'Go',
       'TypeScript',
       'React',
       'Next',

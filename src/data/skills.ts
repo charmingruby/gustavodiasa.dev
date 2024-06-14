@@ -24,15 +24,7 @@ interface Technology {
 
 export const skills: Technology[] = [
   {
-    alt: 'React Native',
-    url: reactIcon,
-  },
-  {
-    alt: 'React',
-    url: reactIcon,
-  },
-  {
-    alt: 'Golang',
+    alt: 'Go',
     url: goIcon,
   },
   {
@@ -42,6 +34,14 @@ export const skills: Technology[] = [
   {
     alt: 'Phoenix',
     url: phoenixIcon,
+  },
+  {
+    alt: 'React Native',
+    url: reactIcon,
+  },
+  {
+    alt: 'React',
+    url: reactIcon,
   },
   {
     alt: 'Typescript',
