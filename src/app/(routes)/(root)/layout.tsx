@@ -1,9 +1,8 @@
 import { PropsWithChildren } from 'react'
 
+import { Drawer } from '@/components/layouts/root/drawer'
+import { Nav } from '@/components/layouts/root/nav'
 import { MaxWidthWrapper } from '@/components/ui/max-width-wrapper'
-
-import { Drawer } from './_components/drawer'
-import { Nav } from './_components/nav'
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (

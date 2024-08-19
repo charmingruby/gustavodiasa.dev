@@ -10,6 +10,7 @@ import { Heading } from '@/components/ui/heading'
 import { Separator } from '@/components/ui/separator'
 import { githubUrl, linkedinUrl, name, role } from '@/data/profile'
 
+import { AboutMeText } from './_components/about-me-text'
 import { CareerPath } from './_components/career-path'
 import { ContactForm } from './_components/contact-form/form'
 import { DeveloperStack } from './_components/developer-stack'
@@ -75,52 +76,7 @@ export default function Page() {
       <section id="about" className="scroll-mt-24">
         <Heading>About</Heading>
 
-        <div className="space-y-4 leading-relaxed text-muted-foreground">
-          <p>
-            I{"'"}m a{' '}
-            <span className="font-semibold text-foreground">
-              Full Stack Developer
-            </span>
-            . I{"'"}m based in Juiz de Fora, MG - Brazil, and pursuing a{' '}
-            <span className="font-semibold text-foreground">
-              Bachelor{"'"}s degree in Computer Science at UFJF
-            </span>
-            . I thrive in dynamic environments where I can leverage my skills in
-            technologies to create robust and scalable solutions.
-          </p>
-
-          <p>
-            Currently, I{"'"}m working as a{' '}
-            <span className="font-semibold text-foreground">
-              Backend Developer
-            </span>
-            , specializing in{' '}
-            <span className="font-semibold text-foreground">Go and Elixir</span>
-            . Here, I{"'"}m actively involved in implementing and maintaining
-            systems, ensuring quality through comprehensive testing, and
-            contributing to architectural decisions for web applications.
-            Concurrently, I{"'"}m freelancing, where I work as a{' '}
-            <span className="font-semibold text-foreground">
-              Full-Stack Developer
-            </span>
-            , proficient in{' '}
-            <span className="font-semibold text-foreground">
-              Go, Elixir, React and Node
-            </span>
-            . In this role, I lead project implementations, mentor fellow
-            developers, and engage directly with clients to deliver tailored
-            solutions.
-          </p>
-
-          <p>
-            I am seeking opportunities to further hone my skills and expand my
-            expertise in{' '}
-            <span className="font-semibold text-foreground">Backend</span>{' '}
-            development, particularly in areas that align with my current focus.
-            I am eager to contribute to innovative projects that challenge and
-            inspire me, while continuously learning and growing as a developer.
-          </p>
-        </div>
+        <AboutMeText />
       </section>
 
       {/* Career */}

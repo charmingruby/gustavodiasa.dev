@@ -1,6 +1,6 @@
 import { toast } from 'sonner'
 
-import { FormData } from '@/app/(routes)/(root-layout)/(home)/_components/contact-form/use-contact-controller'
+import { FormData } from '@/app/(routes)/(root)/(lp)/_components/contact-form/use-contact-controller'
 
 export async function sendEmail(data: FormData) {
   const apiEndpoint = '/api/email'

@@ -1,9 +1,13 @@
 import { StaticImageData } from 'next/image'
 
+import awsIcon from '@/assets/technologies/aws.svg'
 import dockerIcon from '@/assets/technologies/docker.svg'
 import elixirIcon from '@/assets/technologies/elixir.svg'
 import goIcon from '@/assets/technologies/go.svg'
 import gqlIcon from '@/assets/technologies/graphql.svg'
+import grpcIcon from '@/assets/technologies/grpc.svg'
+import kubernetesIcon from '@/assets/technologies/kubernetes.svg'
+import mongodbIcon from '@/assets/technologies/mongodb.svg'
 import mysqlIcon from '@/assets/technologies/mysql.svg'
 import nestIcon from '@/assets/technologies/nest.svg'
 import nextIcon from '@/assets/technologies/next.svg'
@@ -14,7 +18,6 @@ import pythonIcon from '@/assets/technologies/python.svg'
 import rabbitMqIcon from '@/assets/technologies/rabbitmq.svg'
 import reactIcon from '@/assets/technologies/react.svg'
 import redisIcon from '@/assets/technologies/redis.svg'
-import tailwindIcon from '@/assets/technologies/tailwindcss.svg'
 import typescriptIcon from '@/assets/technologies/typescript.svg'
 
 interface Technology {
@@ -28,26 +31,6 @@ export const skills: Technology[] = [
     url: goIcon,
   },
   {
-    alt: 'Elixir',
-    url: elixirIcon,
-  },
-  {
-    alt: 'Phoenix',
-    url: phoenixIcon,
-  },
-  {
-    alt: 'React Native',
-    url: reactIcon,
-  },
-  {
-    alt: 'React',
-    url: reactIcon,
-  },
-  {
-    alt: 'Typescript',
-    url: typescriptIcon,
-  },
-  {
     alt: 'Node',
     url: nodeIcon,
   },
@@ -56,12 +39,28 @@ export const skills: Technology[] = [
     url: nestIcon,
   },
   {
-    alt: 'Python',
-    url: pythonIcon,
+    alt: 'Typescript',
+    url: typescriptIcon,
+  },
+  {
+    alt: 'React',
+    url: reactIcon,
   },
   {
     alt: 'Next',
     url: nextIcon,
+  },
+  {
+    alt: 'Elixir',
+    url: elixirIcon,
+  },
+  {
+    alt: 'Phoenix',
+    url: phoenixIcon,
+  },
+  {
+    alt: 'Python',
+    url: pythonIcon,
   },
   {
     alt: 'PostgreSQL',
@@ -76,8 +75,12 @@ export const skills: Technology[] = [
     url: mysqlIcon,
   },
   {
-    alt: 'Tailwind',
-    url: tailwindIcon,
+    alt: 'Mongo',
+    url: mongodbIcon,
+  },
+  {
+    alt: 'gRPC',
+    url: grpcIcon,
   },
   {
     alt: 'GraphQL',
@@ -90,5 +93,13 @@ export const skills: Technology[] = [
   {
     alt: 'RabbitMQ',
     url: rabbitMqIcon,
+  },
+  {
+    alt: 'Kubernetes',
+    url: kubernetesIcon,
+  },
+  {
+    alt: 'AWS',
+    url: awsIcon,
   },
 ]

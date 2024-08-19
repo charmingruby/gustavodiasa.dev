@@ -11,13 +11,33 @@ interface Experience {
 
 const career: Experience[] = [
   {
-    role: 'Backend Developer',
+    role: 'Mid-Level Full Stack Developer',
+    enteprise: 'BrandMonitor',
+    description:
+      'Designed and implemented web scraping processors, standardized architectural models, and contributed to asynchronous microservices development, while mentoring the team.',
+    technologies: [
+      'Go',
+      'Nest',
+      'Node',
+      'React',
+      'TypeScript',
+      'MongoDB',
+      'RabbitMQ',
+      'GCP',
+    ],
+    location: 'Remote, Brazil',
+    finishedAt: 'Present',
+    startedAt: 'Jul 2024',
+    site: 'https://www.branddi.com/',
+  },
+  {
+    role: 'Jr. Backend Developer',
     enteprise: 'Concatech',
     description:
       'Developed, maintained, tested, and shipped production APIs for customers systems. Also collaborated with internal microservices development and tooling build.',
     technologies: ['Go', 'Elixir', 'Phoenix', 'Postgres', 'Tests'],
     location: 'Remote, Brazil',
-    finishedAt: 'Present',
+    finishedAt: 'Jul 2024',
     startedAt: 'Nov 2023',
     site: 'https://www.concatech.com.br/',
   },
@@ -37,7 +57,7 @@ const career: Experience[] = [
       'Postgres',
     ],
     location: 'Remote, Brazil',
-    finishedAt: 'Present',
+    finishedAt: 'Jul 2024',
     startedAt: 'Jun 2023',
     site: 'https://www.concatech.com.br/',
   },

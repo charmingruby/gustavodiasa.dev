@@ -1,7 +1,6 @@
+import { Projects } from '@/components/layouts/projects/projects'
+import { TechnologiesCount } from '@/components/layouts/projects/technologies-count'
 import { Heading } from '@/components/ui/heading'
-
-import { Projects } from './_components/projects'
-import { TechnologiesCount } from './_components/technologies-count'
 
 export default function Page() {
   return (
